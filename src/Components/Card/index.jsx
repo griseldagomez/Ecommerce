@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
+import { ShoppingCartContext } from "../../Context";
 
 const Card = (data) => {
-    const context = useContext();
+    const context = useContext(ShoppingCartContext);
 
     return (
         <div className="bg-white cursor-pointer w-56 h-60 rounded-lg">
