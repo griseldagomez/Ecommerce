@@ -13,6 +13,7 @@ import { ShoppingCartProvider } from "../../Context";
 const AppRoutes = () => {
     const routes = useRoutes([
         { path: "/", element: <Home /> },
+        { path: "/Ecommerce", element: <Home /> },
         { path: "/my-account", element: <MyAccount /> },
         { path: "/my-order", element: <MyOrder /> },
         { path: "/my-orders", element: <MyOrders /> },
